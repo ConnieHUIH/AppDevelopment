@@ -4,6 +4,6 @@ part 'app_settings.g.dart';
 
 @collection
 class AppSettings {
-  Id id = Isar.autoIncrement;
+  Id id = 0;
   DateTime? firstLaunchDate;
 }
